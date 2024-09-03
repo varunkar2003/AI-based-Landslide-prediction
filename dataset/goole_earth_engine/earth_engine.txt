@@ -1,2 +1,0 @@
-this txt contains the instructions to acces the earth engine and the url the file(explain to team in detail later no time now)
-https://code.earthengine.google.com
