@@ -1,0 +1,10 @@
+1. Numpy for Efficient Data Handling
+Library: numpy
+Usage:
+np.load(npy_file_path): Loads the preprocessed images stored in the .npy format.
+Benefit: numpy arrays allow for efficient storage and manipulation of large datasets like image data. In the case of a landslide prediction model, using numpy allows you to efficiently load, manipulate, and process thousands of images, which is important when dealing with datasets as large as those used in image-based machine learning.
+2. Matplotlib for Data Visualization
+Library: matplotlib.pyplot
+Usage:
+plt.imshow() and plt.show(): Visualizes the preprocessed images.
+Benefit: Visualization is crucial in understanding how well the images have been preprocessed (resized, normalized, etc.). This helps identify potential problems early in the process before applying machine learning models. For landslide prediction, checking that the images are properly processed is important since models like Convolutional Neural Networks (CNNs) are sensitive to input image dimensions.

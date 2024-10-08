@@ -1,0 +1,17 @@
+Core Concepts and Techniques:
+
+Multithreading (ThreadPoolExecutor): Parallelizing the image processing tasks to speed up execution.
+
+Data Augmentation: Introducing random image transformations (rotation and flipping) to artificially expand the dataset.
+
+Image Resizing and Normalization: Ensuring uniform size and scaling the pixel values for better performance in deep learning models.
+
+Batch Processing: Processing and saving images in small batches to avoid memory overflows.
+
+How These Help in Machine Learning:
+
+Data Augmentation improves the generalization of the model by exposing it to various transformations of the input data.
+
+Normalization and resizing ensure the images are compatible with the neural network’s expected input format.
+
+Multithreading increases the efficiency of the data preparation pipeline, especially when dealing with large datasets.
